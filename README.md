@@ -11,7 +11,11 @@ Pour intégrer ces traductions dans votre page AMP :
 1.  **Téléchargez le fichier de langue souhaité :**
     Sélectionnez et téléchargez le fichier `.json` de la langue dont vous avez besoin directement depuis la racine de ce dépôt (par exemple, `fr.json` pour le français).
 
-2.  **Incluez les traductions dans votre code AMP HTML :**
+2.  **Placez les fichiers de traduction dans le répertoire Locale :**
+    Copiez les fichiers `.json` téléchargés dans le répertoire `Locale` de votre environnement AMP, par exemple :
+    `home\amp\.ampdata\instances\ADS01\WebRoot\Locale\`
+
+3.  **Incluez les traductions dans votre code AMP HTML :**
     Vous pouvez copier le contenu du fichier `.json` et l'intégrer directement dans votre page AMP en utilisant une balise `<script type="application/json">` avec un `id` unique. Ensuite, référencez cet `id` via l'attribut `i18n` sur les éléments AMP qui supportent l'internationalisation.
 
     **Exemple pour un composant AMP (adapter selon le composant réel) :**
@@ -47,9 +51,6 @@ Pour intégrer ces traductions dans votre page AMP :
     </html>
     ```
     **Note :** L'ID du script (`my-fr-strings` dans cet exemple) est arbitraire mais doit correspondre à la valeur de l'attribut `i18n` sur l'élément AMP. Assurez-vous que les clés JSON dans votre fichier (`AMP_COMP_STRING_1`, `NEXT_BUTTON_LABEL`, etc.) correspondent aux chaînes que le composant AMP attend.
-
-3.  **Alternative : Référencement Direct (Si votre serveur le permet)**
-    Si votre environnement de serveur web permet un accès direct aux fichiers, vous pourriez potentiellement les placer dans un dossier comme `/Locale/` et les charger dynamiquement, mais l'approche `<script type="application/json">` est la méthode standard et la plus fiable pour AMP.
 
 ## Composants et Langues Disponibles
 
@@ -122,7 +123,11 @@ To integrate these translations into your AMP page:
 1.  **Download the desired language file:**
     Select and download the `.json` file for the language you need directly from the root of this repository (e.g., `en.json` for English).
 
-2.  **Include the translations in your AMP HTML code:**
+2.  **Place the translation files in the Locale directory:**
+     Copy the downloaded `.json` files into the `Locale` directory of your AMP environment, for example:
+     `home\amp\.ampdata\instances\ADS01\WebRoot\Locale\`
+
+3.  **Include the translations in your AMP HTML code:**
     You can copy the content of the `.json` file and embed it directly into your AMP page using a `<script type="application/json">` tag with a unique `id`. Then, reference this `id` via the `i18n` attribute on AMP elements that support internationalization.
 
     **Example for an AMP component (adapt according to the actual component):**
@@ -158,9 +163,6 @@ To integrate these translations into your AMP page:
     </html>
     ```
     **Note:** The script ID (`my-en-strings` in this example) is arbitrary but must match the value of the `i18n` attribute on the AMP element. Ensure that the JSON keys in your file (`AMP_COMP_STRING_1`, `NEXT_BUTTON_LABEL`, etc.) match the strings the AMP component expects.
-
-3.  **Alternative: Direct Referencing (If your server allows it)**
-    If your web server environment allows direct access to files, you could potentially place them in a folder like `/Locale/` and load them dynamically, but the `<script type="application/json">` approach is the standard and most reliable method for AMP.
 
 ## Available Components and Languages
 
