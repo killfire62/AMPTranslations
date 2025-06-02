@@ -22,14 +22,14 @@
     "Sam",
     "Dim"
   ],
-  "LongDaysOfWeek": [
-    "Lundi",
-    "Mardi",
-    "Mercredi",
-    "Jeudi",
-    "Vendredi",
-    "Samedi",
-    "Dimanche"
+  "LongDaysOfWeeek": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
   ],
   "LocaleName": "fr",
   "Strings": {
@@ -50,7 +50,7 @@
     "Email Address": "Adresse e-mail",
     "Save Changes": "Enregistrer les modifications",
     "Two factor authentication (2FA)": "Authentification à deux facteurs (2FA)",
-    "2FA is currently": "Le 2FA est actuellement",
+    " 2FA is currently": " 2FA is currently",
     "Disabled": "Désactivé",
     "Setup 2FA": "Configurer le 2FA",
     "Disable 2FA": "Désactiver le 2FA",
@@ -438,7 +438,7 @@
     "Edit User Permissions": "Modifier les permissions de l'utilisateur",
     "Please enter a name for this login request for future reference.": "Veuillez entrer un nom pour cette demande de connexion pour référence future.",
     "Service Login Request": "Demande de connexion de service",
-    "This will permanently delete this user and all associated data.": "Cela supprimera définitivement cet utilisateur et toutes les données associées.",
+    "This will permemently delete this user and all associated data.": "This will permemently delete this user and all associated data.",
     "Delete User Forever": "Supprimer l'utilisateur définitivement",
     "AMP Core": "Noyau AMP",
     "Schedule Offset": "Décalage de planning",
@@ -601,7 +601,7 @@
     "Delete Single Oldest": "Supprimer la plus ancienne",
     "Delete Multiple": "Supprimer plusieurs",
     "Backup Compression Level": "Niveau de compression des sauvegardes",
-    "What level of compression to apply to newly created backups. Lower levels of compression require less CPU time to create and extract, but result in larger files.": "Quel niveau de compression appliquer aux nouvelles sauvegardes créées. Les niveaux de compression plus faibles nécessitent moins de temps CPU pour créer et extraire, mais résultent en des fichiers plus volumineux.",
+    "What level of compression to apply to newly created backups. Lower levels of compressison require less CPU time to create and extract, but result in larger files.": "What level of compression to apply to newly created backups. Lower levels of compressison require less CPU time to create and extract, but result in larger files.",
     "Level0": "Niveau0",
     "Level1": "Niveau1",
     "Level2": "Niveau2",
