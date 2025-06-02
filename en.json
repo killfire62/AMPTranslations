@@ -80,6 +80,7 @@
     "Sleep": "Sleep",
     "No Schedule Set": "No Schedule Set",
     "Create a new schedule trigger to make tasks run either at a given interval, or in response to an event.": "Create a new schedule trigger to make tasks run either at a given interval, or in response to an event.",
+    "Create a new trigger to make tasks run at a given interval or in response to an event.": "Create a new trigger to make tasks run at a given interval or in response to an event."
     "Add new trigger": "Add new trigger",
     "Logged in at": "Logged in at",
     "Last activity": "Last activity",
