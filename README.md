@@ -18,11 +18,11 @@ Ce dépôt fournit des fichiers de traduction (`.json`) pour divers composants e
 Pour intégrer ces traductions dans votre page AMP :
 
 1. **Téléchargez les fichiers de langue souhaités :**
-   * [Français (fr.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/fr.json)
-   * [Anglais (en.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/en.json)
-   * [Allemand (de.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/de.json)
-   * [Espagnol (es.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/es.json)
-   * [Polonais (pl.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/pl.json)
+   * [Français (fr.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/latest/fr.json)
+   * [Anglais (en.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/latest/en.json)
+   * [Allemand (de.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/latest/de.json)
+   * [Espagnol (es.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/latest/es.json)
+   * [Polonais (pl.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/latest/pl.json)
 
 2. **Placez les fichiers dans le répertoire `Locale` :**  
    Exemple de chemin :  
@@ -47,6 +47,8 @@ Ce dépôt est basé sur :
 
 ## Remerciements
 
+https://crowdin.com/project/amptranslations
+
 Merci aux contributeurs et à la communauté AMP 💙
 
 ---
@@ -59,11 +61,11 @@ This repository provides translation files (`.json`) for various **AMP (Accelera
 ## How to Use These Translations
 
 1. **Download the language files:**
-   * [French (fr.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/fr.json)
-   * [English (en.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/en.json)
-   * [German (de.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/de.json)
-   * [Spanish (es.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/es.json)
-   * [Polish (pl.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/pl.json)
+   * [French (fr.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/latest/fr.json)
+   * [English (en.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/latest/en.json)
+   * [German (de.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/latest/de.json)
+   * [Spanish (es.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/latest/es.json)
+   * [Polish (pl.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/latest/pl.json)
 
 2. **Place the `.json` files in your AMP `Locale` folder:**  
    Example:  
@@ -87,5 +89,7 @@ Based on the original work by:
 **[CubeCoders/AMPTranslations](https://github.com/CubeCoders/AMPTranslations)**
 
 ## Acknowledgements
+
+https://crowdin.com/project/amptranslations
 
 Thanks to all contributors and the AMP community 💙
