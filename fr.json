@@ -23,13 +23,13 @@
     "Dim"
   ],
   "LongDaysOfWeeek": [
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-    "Sunday"
+    "Lundi",
+    "Mardi",
+    "Mercredi",
+    "Jeudi",
+    "Vendredi",
+    "Samedi",
+    "Dimanche"
   ],
   "LocaleName": "fr",
   "Strings": {
@@ -132,7 +132,7 @@
     "Advanced Time Interval": "Intervalle de temps avancé",
     "Advanced Time Interval Trigger": "Déclencheur d'intervalle de temps avancé",
     "Months": "Mois",
-    "Jan": "Jan",
+    "Jan": "Janv",
     "Feb": "Fév",
     "Mar": "Mar",
     "Apr": "Avr",
