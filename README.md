@@ -127,4 +127,112 @@ Un grand merci à tous les contributeurs et à la communauté AMP pour leur trav
 
 ---
 
-[!
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Translation Status](https://img.shields.io/badge/status-active-blue)
+This repository provides translation files (`.json`) for various **AMP (Accelerated Mobile Pages)** components and features in multiple languages, including **French (fr.json)**, **English (en.json)**, **German (de.json)**, **Spanish (es.json)**, and **Polish (pl.json)**.
+
+## How to Use These Translations
+
+To integrate these translations into your AMP page:
+
+1.  **Download the desired language files:**
+    Click on the links below to directly download the files:
+    * [French (fr.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/fr.json)
+    * [English (en.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/en.json)
+    * [German (de.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/de.json)
+    * [Spanish (es.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/es.json)
+    * [Polish (pl.json)](https://raw.githubusercontent.com/killfire62/AMPTranslations/main/pl.json)
+
+2.  **Place the translation files in the Locale directory:**
+     Copy the downloaded `.json` files into the `Locale` directory of your AMP environment, for example:
+     `home\amp\.ampdata\instances\ADS01\WebRoot\Locale\`
+
+3.  **Include the translations in your AMP HTML code:**
+    You can copy the content of the `.json` file and embed it directly into your AMP page using a `<script type="application/json">` tag with a unique `id`. Then, reference this `id` via the `i18n` attribute on AMP elements that support internationalization.
+
+    **Example for an AMP component (adapt according to the actual component):**
+
+    ```html
+    <!doctype html>
+    <html ⚡ lang="en">
+    <head>
+      <meta charset="utf-8">
+      <link rel="canonical" href="[https://example.com/amp-page.html](https://example.com/amp-page.html)">
+      <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+      <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+      <script async src="[https://cdn.ampproject.org/v0.js](https://cdn.ampproject.org/v0.js)"></script>
+      <script async custom-element="amp-carousel" src="[https://cdn.ampproject.org/v0/amp-carousel-0.1.js](https://cdn.ampproject.org/v0/amp-carousel-0.1.js)"></script>
+      </head>
+    <body>
+      <script id="my-en-strings" type="application/json">
+        {
+          "AMP_COMP_STRING_1": "Translated text 1",
+          "AMP_COMP_STRING_2": "Translated text 2",
+          "NEXT_BUTTON_LABEL": "Next",
+          "PREVIOUS_BUTTON_LABEL": "Previous"
+        }
+      </script>
+
+      <amp-carousel width="400" height="300" layout="responsive" type="slides" controls i18n="my-en-strings">
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+      </amp-carousel>
+
+      <div i18n="my-en-strings" data-i18n-content="AMP_COMP_STRING_1"></div>
+      </body>
+    </html>
+    ```
+    **Note:** The script ID (`my-en-strings` in this example) is arbitrary but must match the value of the `i18n` attribute on the AMP element. Ensure that the JSON keys in your file (`AMP_COMP_STRING_1`, `NEXT_BUTTON_LABEL`, etc.) match the strings the AMP component expects.
+
+## Available Components and Languages
+
+This repository contains translation files for the following languages:
+
+* **French** (`fr.json`)
+* **English** (`en.json`)
+* **German** (`de.json`)
+* **Spanish** (`es.json`)
+* **Polish** (`pl.json`)
+
+Each file contains translations for various strings used by AMP components and the AMP runtime. Examine the `.json` files to see the specific translation keys and their content.
+
+## How to Contribute
+
+We warmly welcome all contributions to improve and expand these translations! Your help is valuable, whether to correct an error, suggest a better translation, or add translations for new AMP keys or components.
+
+1.  **Fork** this repository.
+2.  **Clone** your fork locally:
+    ```bash
+    git clone [https://github.com/your-username/AMPTranslations.git](https://github.com/your-username/AMPTranslations.git)
+    ```
+3.  **Create a new branch** for your changes:
+    ```bash
+    git checkout -b feature/en-json-improvement
+    ```
+4.  **Make your changes** directly in the existing `.json` files (e.g., `en.json`). Ensure the JSON format is valid.
+5.  **Commit your changes** with a clear message:
+    ```bash
+    git commit -m "fix: Corrected a typo in en.json"
+    # or
+    git commit -m "feat: Added new keys for amp-comp in en.json"
+    ```
+6.  **Push** your branch to your fork on GitHub:
+    ```bash
+    git push origin feature/en-json-improvement
+    ```
+7.  **Open a Pull Request (PR)** to the `main` branch of this repository. Describe your changes and their rationale.
+
+## Original Source
+
+This repository is a fork and contains translations based on the original work by:
+**[CubeCoders/AMPTranslations](https://github.com/CubeCoders/AMPTranslations)**
+
+We maintain and improve these translations for the French-speaking community (and other languages) and strive to keep up to date with changes from the original source.
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+
+## Acknowledgements
+
+A big thank you to all contributors and the AMP community for their continued work.
