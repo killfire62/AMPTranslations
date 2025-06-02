@@ -22,7 +22,7 @@
     "So",
     "Nd"
   ],
-  "LongDaysOfWeek": [
+  "LongDaysOfWeeek": [
     "Poniedziałek",
     "Wtorek",
     "Środa",
@@ -438,7 +438,7 @@
     "Edit User Permissions": "Edytuj uprawnienia użytkownika",
     "Please enter a name for this login request for future reference.": "Wprowadź nazwę dla tego żądania logowania do przyszłych odniesień.",
     "Service Login Request": "Żądanie logowania serwisowego",
-    "This will permanently delete this user and all associated data.": "To trwale usunie tego użytkownika i wszystkie powiązane dane.",
+    "This will permemently delete this user and all associated data.": "This will permemently delete this user and all associated data.",
     "Delete User Forever": "Usuń użytkownika na zawsze",
     "AMP Core": "Jądro AMP",
     "Schedule Offset": "Przesunięcie harmonogramu",
