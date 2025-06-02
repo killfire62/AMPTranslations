@@ -23,13 +23,13 @@
     "Dom"
   ],
   "LongDaysOfWeeek": [
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-    "Sunday"
+    "Lunes",
+    "Martes",
+    "Miércoles",
+    "Jueves",
+    "Viernes",
+    "Sábado",
+    "Domingo"
   ],
   "LocaleName": "es",
   "Strings": {
