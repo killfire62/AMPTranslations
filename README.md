@@ -51,6 +51,10 @@ Merci aux contributeurs et à la communauté AMP 💙
 
 ---
 
+# AMPTranslations: Multi-Language Localization Files for AMP
+
+This repository provides translation files (`.json`) for various **AMP (Accelerated Mobile Pages)** components and features in multiple languages, including **French**, **English**, **German**, **Spanish**, and **Polish**.
+
 
 ## How to Use These Translations
 
