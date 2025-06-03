@@ -22,7 +22,7 @@
     "Sáb",
     "Dom"
   ],
-  "LongDaysOfWeek": [
+  "LongDaysOfWeeek": [
     "Lunes",
     "Martes",
     "Miércoles",
@@ -438,7 +438,7 @@
     "Edit User Permissions": "Editar permisos de usuario",
     "Please enter a name for this login request for future reference.": "Por favor, ingresa un nombre para esta solicitud de inicio de sesión para referencia futura.",
     "Service Login Request": "Solicitud de inicio de sesión de servicio",
-    "This will permanently delete this user and all associated data.": "Esto eliminará permanentemente a este usuario y todos los datos asociados.",
+    "This will permemently delete this user and all associated data.": "This will permemently delete this user and all associated data.",
     "Delete User Forever": "Eliminar usuario permanentemente",
     "AMP Core": "Núcleo de AMP",
     "Schedule Offset": "Desplazamiento de horario",
@@ -601,7 +601,7 @@
     "Delete Single Oldest": "Eliminar la más antigua",
     "Delete Multiple": "Eliminar múltiples",
     "Backup Compression Level": "Nivel de compresión de copia de seguridad",
-    "What level of compression to apply to newly created backups. Lower levels of compression require less CPU time to create and extract, but result in larger files.": "Qué nivel de compresión aplicar a las copias de seguridad recién creadas. Los niveles más bajos de compresión requieren menos tiempo de CPU para crear y extraer, pero resultan en archivos más grandes.",
+    "What level of compression to apply to newly created backups. Lower levels of compressison require less CPU time to create and extract, but result in larger files.": "What level of compression to apply to newly created backups. Lower levels of compressison require less CPU time to create and extract, but result in larger files.",
     "Level0": "Nivel0",
     "Level1": "Nivel1",
     "Level2": "Nivel2",
