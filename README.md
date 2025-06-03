@@ -47,6 +47,8 @@ Ce dépôt est basé sur :
 
 ## Remerciements
 
+https://crowdin.com/project/amptranslations
+
 Merci aux contributeurs et à la communauté AMP 💙
 
 ---
@@ -87,5 +89,7 @@ Based on the original work by:
 **[CubeCoders/AMPTranslations](https://github.com/CubeCoders/AMPTranslations)**
 
 ## Acknowledgements
+
+https://crowdin.com/project/amptranslations
 
 Thanks to all contributors and the AMP community 💙
